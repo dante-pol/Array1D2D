@@ -29,3 +29,12 @@ def reverse(array):
         temp = array[len(array) - i - 1]
         array[len(array) - i - 1] = array[i]
         array[i] = temp
+
+def sum_odd(array):
+    sum = 0
+    
+    for el in array:
+        if(el % 2 != 0):
+            sum += el
+
+    return sum
