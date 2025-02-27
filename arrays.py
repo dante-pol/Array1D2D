@@ -9,3 +9,11 @@ def proz(a):
     for i in a[i]:
         proz*=a[i]
     return proz
+
+def max(a):
+    max=a[0]
+    for i in a:
+        if max<a[i]:
+            max=a[i]
+    return max
+    
