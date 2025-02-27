@@ -17,3 +17,13 @@ def prod_among_odd_numbers(array):
             sum *= number
 
     return sum
+
+def max_among_odd_numbers(array):
+
+    max = array[0]
+
+    for number in array:
+        if number > max:
+            max = number
+
+    return max
