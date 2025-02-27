@@ -4,6 +4,14 @@ def summ(array):
         summ += array[i]
     return summ
 
+def maxi(array):
+    maxi_elem=array[0]
+    for i in range(len(array)):
+        if maxi_elem<array[i]:
+            maxi_elem=array[i]
+    return maxi_elem
+
+
 def proiz(array):
     proiz_elem = 1
     for i in range(len(array)):
