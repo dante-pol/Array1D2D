@@ -22,3 +22,10 @@ def min_among_odd(array):
             min = array[i]
 
     return min
+
+
+def reverse(array):
+    for i in range(0, len(array) // 2):
+        temp = array[len(array) - i - 1]
+        array[len(array) - i - 1] = array[i]
+        array[i] = temp
